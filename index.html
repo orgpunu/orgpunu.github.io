@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			JW Player Reponsive Video
+		</title>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js">
+		</script>
+		<style type="text/css">
+			html, body {
+				height: 100%;
+				width: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			#player {
+				height: 100%;
+				width: 100%; 
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="player">
+	</div>
+		<script type="text/javascript">
+			jwplayer("player").setup({
+				file: "https://live2.saohgdasregions.fun:9091/42_/tracks-v1a1/mono.m3u8?remote=38.61.157.63&token=d57ce20de7c27c8998c8cc8ab57a1fb1cb1a26aa-cf89587da348c75c30817b9b0fbe7e2d-1752811255-1752789655",
+				image: "http://testing.grappler.tk/files/2013/01/trailer_1080p.jpg",
+				height: "100%",
+				width: "100%",
+				stretching: "exactfit",
+				flashplayer:"//cdn.jsdelivr.net/jwplayer/5.10/player.swf"
+			});
+		</script>
+	</body>
+</html>
